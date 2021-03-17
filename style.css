@@ -87,9 +87,14 @@ nav{
     color: #00A0C1;
 }
 .head-cards{
+    position: relative;
+}
+.head-card-position{
+    position: absolute;
+    top: 40px;
+    width: 1140px;
     display: flex;
     justify-content: space-between;
-    padding-top: 40px;
 }
 .head-cards-item-white{
     width: 328px;
@@ -117,5 +122,43 @@ nav{
 .head-card-desc{
     font-size: 14px;
     font-weight: 500;
+}
+.main-titles{
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    color: #252B42;
+    padding-bottom: 10px;
+}
+.stat-section{
+    padding: 200px 0 80px 0;
+    background-color: #FAFAFA;
+}
+.stat-section-desc{
+    width: 511px;
+    margin: auto;
+    text-align: center;
+}
+.stat-cards{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.stat-card{
+    width: 230px;
+    background-color: #fff;
+    text-align: center;
+    padding: 30px 0;
+}
+.statistics{
+    padding-top: 10px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 57px;
+}
+.stat-txt{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
 }
 
