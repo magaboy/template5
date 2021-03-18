@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 body{
     font-family: Montserrat;
     margin: 0;
@@ -169,12 +172,17 @@ nav{
     padding: 100px 0;
 }
 .features-cards{
-    width: 230px;
     padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.features-card{
+    /* width: 230px; */
 }
 .features-card-txt{
     padding: 30px;
     background-color: #fff;
+    width: 230px;
 }
 
 .features-card-desc{
