@@ -137,13 +137,14 @@ nav{
     padding: 200px 0 80px 0;
     background-color: #FAFAFA;
 }
-.main-subtitles{
-    width: 511px;
+.main-desc{
     margin: auto;
     text-align: center;
     font-size: 14px;
     font-weight: 500;
     line-height: 20px;
+    padding-top: 15px;
+    color: #737373;
 }
 .stat-cards{
     margin-top: 50px;
@@ -176,18 +177,57 @@ nav{
     display: flex;
     justify-content: space-between;
 }
-.features-card{
-    /* width: 230px; */
-}
+/* .features-card{
+    width: 230px;
+} */
 .features-card-txt{
     padding: 30px;
     background-color: #fff;
     width: 230px;
 }
-
 .features-card-desc{
     font-size: 14px;
     font-weight: 500;
     line-height: 20px;
+    color: #737373;
+}
+.about{
+    padding: 100px 0;
+}
+.about-flex{
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.about-txt{
+    width: 360px;
+}
+.about-img{
+    position: relative;
+}
+.about-btn{
+    position: absolute;
+    top: 172px;
+    left: 250px;
+}
+.about-flex .main-titles, 
+.about-flex .main-desc{
+    text-align: left;
+}
+.about-flex-txt{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0 0 0;
+}
+
+.about-subtitle{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 700;
+}
+.subdesc{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
     color: #737373;
 }
