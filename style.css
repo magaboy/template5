@@ -134,10 +134,13 @@ nav{
     padding: 200px 0 80px 0;
     background-color: #FAFAFA;
 }
-.stat-section-desc{
+.main-subtitles{
     width: 511px;
     margin: auto;
     text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
 }
 .stat-cards{
     margin-top: 50px;
@@ -161,4 +164,22 @@ nav{
     font-weight: 700;
     line-height: 24px;
 }
+.features{
+    background-color: #FAFAFA;
+    padding: 100px 0;
+}
+.features-cards{
+    width: 230px;
+    padding-top: 40px;
+}
+.features-card-txt{
+    padding: 30px;
+    background-color: #fff;
+}
 
+.features-card-desc{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #737373;
+}
