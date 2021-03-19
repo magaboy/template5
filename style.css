@@ -112,9 +112,11 @@ nav{
     box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
     color: #fff;
 }
-.head-card-title{
+.head-card-title
+.contact-us-title{
     font-size: 24px;
-    font-weight: 700;
+    font-weight: 100;
+    line-height: 32px;
 }
 .head-card-icon{
     height: 48px;
@@ -137,7 +139,7 @@ nav{
     padding: 200px 0 80px 0;
     background-color: #FAFAFA;
 }
-.main-desc{
+.main-desc  {
     margin: auto;
     text-align: center;
     font-size: 14px;
@@ -308,6 +310,7 @@ input{
     padding: 80px 50px;
     background-color: #252B42;
     height: 393px;
+    color: #fff;
 }
 .contact-btn{
     color: #FFA62B;
@@ -321,4 +324,26 @@ input{
 .contact-item-dark .contact-btn{
     color: #fff;
     border: 1px solid #fff;
+}
+.contact-us{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+.contact-us-title{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+}
+.contact-us-desc{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    color: #737373;
+}
+.contact-us-btn{
+    padding: 15px 40px;
+    color: #fff;
+    background-color: #FFA62B;
+    border-radius: 5px;
 }
