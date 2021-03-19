@@ -231,3 +231,57 @@ nav{
     line-height: 24px;
     color: #737373;
 }
+.clients{
+    background-color: #FAFAFA;
+    padding: 50px 0 0 0;
+}
+.clients-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.background{
+    background-color: #252B42;
+    height: 77px;
+    margin-top: 140px;
+}
+.newsletter-position{
+    position: relative;
+    width: 968px;
+    margin: auto;
+}
+.newsletter{
+    width: 968px;
+    padding: 30px;
+    color: #fff;
+    background-color: #16697A;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 2px;
+    align-items: center;
+    position: absolute;
+    top: 65px;
+}
+.newsletter-title{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+}
+form{
+    display: flex;
+}
+input{
+    height: 58px;
+    border: 1px solid #E6E6E6;
+}
+.btn{
+    background-color: #FFA62B;
+    border-radius: 0 5px 5px 0;
+    padding: 15px 22px;
+    border: 1px solid #E6E6E6;
+}
+.btn a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+}
